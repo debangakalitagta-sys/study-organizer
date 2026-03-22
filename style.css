@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: #191919;
+  color: #e6e6e6;
+}
+
+/* HEADING */
+.heading {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 64px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 40px 0 40px; /* 👈 increased space below */
+  color: #ffffff;
+}
+
+/* TOP BAR */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto 20px;
+  gap: 20px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background: #2a2a2a;
+  border: 1px solid #2f2f2f;
+  border-radius: 6px;
+  padding: 0 10px;
+}
+
+.search-box span {
+  margin-right: 6px;
+  color: #888;
+}
+
+.search-box input {
+  border: none;
+  background: transparent;
+  color: #e6e6e6;
+  padding: 10px;
+  outline: none;
+}
+
+/* INPUTS */
+input, select {
+  padding: 10px;
+  border: 1px solid #2f2f2f;
+  border-radius: 6px;
+  background: #2a2a2a;
+  color: #e6e6e6;
+}
+
+input::placeholder {
+  color: #888;
+}
+
+input:focus, select:focus {
+  border-color: #3f3f3f;
+  background: #333;
+}
+
+/* BUTTON */
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #3b3b3b;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #505050;
+}
+
+/* LIST */
+#resourceList {
+  max-width: 1100px;
+  margin: 20px auto;
+}
+
+.resource {
+  background: #222;
+  padding: 14px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #2f2f2f;
+}
+
+.resource:hover {
+  background: #2a2a2a;
+}
+
+.resource h3 {
+  margin: 0 0 5px;
+  color: #fff;
+}
+
+.resource p {
+  margin: 0 0 6px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.resource button {
+  margin-top: 8px;
+  background: #e5484d;
+}
+
+.resource button:hover {
+  background: #c93c42;
+}
